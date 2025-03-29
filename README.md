@@ -23,12 +23,12 @@ AES File Encryptor is a secure file encryption tool that uses the Advanced Encry
 ## Usage
 ### Encrypt a file:
 ```sh
-encryptor.py -e -i input.txt -o encrypted.aes
+python3 encryptor.py -e -i input.txt -o encrypted.aes
 ```
 
 ### Decrypt a file:
 ```sh
-encryptor.py -d -i encrypted.aes -o decrypted.txt
+python3 encryptor.py -d -i encrypted.aes -o decrypted.txt
 ```
 
 ## License
@@ -38,4 +38,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## Author
-[Sachaniya Het](https://github.com/yourusername)
+[Sachaniya Het](https://github.com/Sachaniyahet)
