@@ -1,35 +1,42 @@
 # AES File Encryptor
 
 ## Overview
-AES File Encryptor is a secure file encryption tool that uses the Advanced Encryption Standard (AES) algorithm to encrypt and decrypt files, ensuring data confidentiality and integrity. This project is licensed under the GNU General Public License v3.0 (GPLv3).
+AES File Encryptor is a GUI-based application that allows users to encrypt and decrypt files using the Advanced Encryption Standard (AES) algorithm. The application ensures secure file encryption with password-based key derivation. This project is licensed under the GNU General Public License v3.0 (GPLv3).
 
 ## Features
 - AES-256 encryption and decryption
 - Secure password-based encryption (PBE)
+- User-friendly graphical interface (GUI) using Tkinter
 - Cross-platform compatibility
-- Simple and efficient command-line interface
 
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Sachaniyahet/aes-file-encryptor.git
+   git https://github.com/Sachaniyahet/aes-file-encryptor.git
    cd aes-file-encryptor
    ```
-2. Install dependencies (if required):
+2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
 
 ## Usage
-### Encrypt a file:
+### Running the GUI Application
 ```sh
-python3 encryptor.py -e -i input.txt -o encrypted.aes
+python3 encryptor.py
 ```
 
+### Encrypt a file:
+1. Click on "Encrypt File"
+2. Select the file to encrypt
+3. Enter a password
+4. The file will be encrypted in-place
+
 ### Decrypt a file:
-```sh
-python3 encryptor.py -d -i encrypted.aes -o decrypted.txt
-```
+1. Click on "Decrypt File"
+2. Select the encrypted file
+3. Enter the correct password
+4. The file will be decrypted in-place
 
 ## License
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
@@ -38,4 +45,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## Author
-[Sachaniya Het](https://github.com/Sachaniyahet)
+[Sachaniyahet](https://github.com/Sachaniyahet/aes-file-encryptor.git)
