@@ -12,7 +12,7 @@ AES File Encryptor is a secure file encryption tool that uses the Advanced Encry
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/aes-file-encryptor.git
+   git clone https://github.com/Sachaniyahet/aes-file-encryptor.git
    cd aes-file-encryptor
    ```
 2. Install dependencies (if required):
