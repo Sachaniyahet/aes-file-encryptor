@@ -45,4 +45,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## Author
-[Sachaniyahet](https://github.com/Sachaniyahet/aes-file-encryptor.git)
+[Sachaniyahet](https://github.com/Sachaniyahet)
