@@ -1,0 +1,2 @@
+tkinter  # Included in Python standard library, no need to install separately
+cryptography
